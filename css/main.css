@@ -103,7 +103,11 @@ header {
     background: #5DBCD2;
 }
 
-
+footer {
+    height: 100px;
+    width: 100%;
+    background: #5DBCD2;
+}
 
 
 
