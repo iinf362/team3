@@ -1,0 +1,10 @@
+# Site settings
+title: Team 3 - Midterm Project
+email: RScarpelli@Albany.edu
+description: Team 3's Midterm Project.
+url: 
+github_username: ryanscarpelli
+
+# Build settings
+markdown: kramdown
+permalink: pretty
