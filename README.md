@@ -4,3 +4,4 @@ Team 3
 - Developer: Igor Ptitsyn
 - Designer: Gintaras Jomantas
 - Copywriter: Ryan Scarpelli
+- Quality Assurance: Jason Mei
