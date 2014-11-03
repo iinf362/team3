@@ -165,8 +165,7 @@ nav a:hover {
 .mainbody {
     background: white;
     color: rgb(29, 136, 161);
-    width: 80%;
-    height: 100%;
+    height: 80%;
     margin: 0 auto 0 auto;
     padding-top: 0px;
     border: 2px solid #1D88A1;
@@ -195,6 +194,46 @@ nav a:hover {
 }
 
 
+
+/*Eviction Custome layout*/
+
+.mainbody2 {
+    background: white;
+    color: rgb(29, 136, 161);
+    height: 100%;
+    margin: 0 auto 0 auto;
+    padding-top: 0px;
+    border: 2px solid #1D88A1;
+
+}
+
+.mainbody2 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.mainbody2 h2 {
+    padding-left: 25px;
+}
+
+.mainbody2 h1 {
+    text-align: center;
+}
+
+.mainbody2 p {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+/*end of eviction Custom*/
+
+
+
+
+
+
 .topics {
     margin-left: 30%;
 }
@@ -218,10 +257,23 @@ nav a:hover {
 }
 
 .fmiddle {
+    
     float: left;
     width: 34%;
     text-align: center;
+    
 }
+
+
+
+.fmiddleRep{
+
+    width:100%;
+    margin:0 Auto;
+    text-align: center;
+   padding-top: 15px;
+}
+
 .fright {
     float: right;
     width: 33%;
@@ -235,6 +287,31 @@ nav a:hover {
     text-align: right;
     padding-right: 50px;
 }
+
+/*footer */
+
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
+}
+
+
+
+
+
+
+
 
 /* ---------- MEDIA QUERIES --------------*/
 
