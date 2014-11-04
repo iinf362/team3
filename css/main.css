@@ -164,6 +164,9 @@ a:active, a:hover {
 
 }
 
+.smallheader {
+    display: none;
+}
 
 .headerspacer {
     width: 100%;
@@ -520,6 +523,45 @@ margin-left: 2em;
     }
     nav {
         float: none;
+    }
+}
+
+@media (max-width: 660px){
+    .mainbody {
+        width: 100%;
+    }
+    .title {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    header nav {
+        display: none;
+    }
+    .smallheader {
+        display: inline;
+        width: 100%;
+    }
+
+    .smallheader * {
+        margin: 0;
+        padding: 0;
+    }
+    .smallheader #smalltitle {
+        height: 30px;
+        width: 150px;
+    }
+    .smallheader img {
+        height: 30px;
+        width: 30px;
+    }
+    .smallheader nav {
+        display: inline;
+        margin-left: 0;
+    }
+    .smallheader nav a {
+        padding-right: 3px;
     }
 }
 
