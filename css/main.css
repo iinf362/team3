@@ -471,6 +471,8 @@ margin-left: 2em;
     }
     .search img {
         display: inline;
+        height: 95%;
+        width: 95%;
     }
     nav {
         float: right;
@@ -482,6 +484,15 @@ margin-left: 2em;
     }
     .topics {
         margin-left: 20%;
+    }
+    .search2 {
+        margin-top: 0px;
+    }
+    .search2 input {
+        display: none;
+    }
+    .search2 img {
+        line-height: 30px;
     }
 }
 
