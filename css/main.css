@@ -422,7 +422,11 @@ margin-left: 2em;
     }
 }
 
-@media (max-width: 1093px) {
+@media (max-width: 1103px){
+
+}
+
+@media (max-width: 1103px) {
     .title {
         margin-left: 50px;
     }
