@@ -267,23 +267,28 @@ a:active, a:hover {
 
 .fleft {
     float: left;
-    width: 33%;
+    width: 50%;
     text-align: left;
     color: rgb(0, 0, 38);
     background: #1b8199;
+}
+
+.fleft a {
+    color: white;
+    text-decoration: none;
 }
 
 .fleft p {
     margin-left: 200px;
 }
 
-.fmiddle {
+/*.fmiddle {
     float: left;
     width: 34%;
     text-align: center;
     color: rgb(255, 255, 255); 
     background: #1b8199;
-}
+}*/
 
 .fmiddleRep{
     width:100%;
@@ -294,7 +299,7 @@ a:active, a:hover {
 
 .fright {
     float: right;
-    width: 33%;
+    width: 50%;
     text-align: right;
     color: rgb(255, 255, 255); 
     background: #1b8199;
@@ -473,9 +478,37 @@ margin-left: 2em;
     }
     nav a {
         line-height: 30px;
+        font-size: 15px;
     }
     .topics {
         margin-left: 20%;
+    }
+}
+
+@media (max-width: 850px) {
+    .title {
+        margin-right: -125px;
+    }
+    .mainbody h1 {
+        font-size: 1.75em;
+    }
+    .mainbody h2 {
+        font-size: 1.25em;
+    }
+    .mainbody p {
+        font-size: 19px;
+    }
+    .topics {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 760px) {
+    .title {
+        margin-right: -150px;
+    }
+    nav {
+        float: none;
     }
 }
 
