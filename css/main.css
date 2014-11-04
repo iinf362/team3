@@ -406,13 +406,13 @@ margin-left: 2em;
     }
 }
 
-@media (max-width: 1282px) {
+@media (max-width: 1332px) {
     nav a {
         font-size: 24px;
     }
 }
 
-@media (max-width: 1197px) {
+@media (max-width: 1247px) {
     nav a {
         font-size: 20px;
         padding-right: 8px;
@@ -437,25 +437,7 @@ margin-left: 2em;
 }
 
 @media (max-width: 960px) {
-    header {
-        width: 960px;
-        max-width: 100%;
-    }
-    .title {
-        float: none;
-        display: block;
-        width: 100%;
-        margin: auto;
-    }
-    .title img {
-   
-    }
-    .search {
-        float: none;
-    }
-    nav {
-        float: none;
-    }
+
 
 }
 
