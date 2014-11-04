@@ -242,7 +242,7 @@ nav a:hover {
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     height: 22px;
-    background: rgb(29, 136, 161);
+    background: rgb(27, 129, 153);
     color: white;
 }
 
@@ -250,9 +250,8 @@ nav a:hover {
     float: left;
     width: 33%;
     text-align: left;
-    color: rgb(0, 0, 83);
-    opacity: 1; 
-    background: rgb(29, 136, 161);
+    color: rgb(0, 0, 38);
+    background: rgb(27, 129, 153);
 }
 
 .fleft p {
@@ -264,7 +263,6 @@ nav a:hover {
     width: 34%;
     text-align: center;
     color: rgb(255, 255, 255); 
-    opacity: 1; 
     background: rgb(27, 129, 153);
 }
 
@@ -280,7 +278,6 @@ nav a:hover {
     width: 33%;
     text-align: right;
     color: rgb(255, 255, 255); 
-    opacity: 1; 
     background: rgb(27, 129, 153);
 }
 
