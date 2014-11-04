@@ -195,15 +195,16 @@ nav a:hover {
 
 
 
-/*Eviction Custome layout*/
+/*repairs Custome layout*/
 
 .mainbody2 {
+
     background: white;
     color: rgb(29, 136, 161);
-    height: 100%;
-    margin: 0 auto 0 auto;
+    width: 80%;
+    float:right;
     padding-top: 0px;
-    border: 2px solid #1D88A1;
+   
 
 }
 
@@ -225,7 +226,7 @@ nav a:hover {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 16px;
 }
 /*end of eviction Custom*/
 
@@ -271,7 +272,7 @@ nav a:hover {
     width:100%;
     margin:0 Auto;
     text-align: center;
-   padding-top: 15px;
+    padding-top: 15px;
 }
 
 .fright {
@@ -296,7 +297,12 @@ margin: 0;
 html, body {
 height: 100%;
 }
+
+
+
+
 .wrapper {
+
 min-height: 100%;
 height: auto !important;
 height: 100%;
@@ -304,13 +310,50 @@ margin: 0 auto -4em;
 }
 .footer, .push {
 height: 4em;
+clear:right;
+}
+
+@media (max-width: 1502px){
+.nav2{
+    height:100%;
+    float:left;
+    display: inline-block;
+    width: 25%;
+    position:fixed;
+    z-index: -30;
+}
+
+.nav2 a{
+
+    color:rgb(11, 10, 0);
+}
+
+.layout2{
+
+    background-color: white;
+
 }
 
 
+.nav2 nav{
+height: 100%;
+width: 65%;
+background-color: rgba(128, 128, 128, 0.31);
+opacity: 0.5;
+border: 1px;
+-moz-box-shadow: 3px 3px 2px 3px rgba(204, 204, 204, 0.35);
+-webkit-box-shadow: 3px 3px 2px 3px rgba(204, 204, 204, 0.35);
+box-shadow: 3px 3px 2px 3px rgba(204, 204, 204, 0.35);
+
+}
 
 
+.nav2 nav a {
+float: left;
+margin-left: 2em;
+}
 
-
+}
 
 
 /* ---------- MEDIA QUERIES --------------*/
@@ -325,6 +368,16 @@ height: 4em;
     .search {
         margin-left: 15px;
         margin-right:15px;
+    }
+    .search2{
+        margin-top: 1em;
+        float:right;
+        margin-left: 15px;
+        margin-right:15px;
+    }
+
+
+
     }
 }
 
