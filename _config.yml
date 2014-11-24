@@ -1,0 +1,10 @@
+# Site settings
+title: New York State tenant legal rights 
+email: 
+description: Know Your Rights as a tenant in Ny state
+url: iinf362.github.io/team3
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
