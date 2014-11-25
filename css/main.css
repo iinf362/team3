@@ -99,7 +99,9 @@ textarea {
 
 body {
 
-    color:rgb(30, 138, 163);;
+    color:rgb(30, 138, 163);
+    font-family: ‘Lucida Console’, Monaco, monospace;
+
 }
 
 p {
