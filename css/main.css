@@ -345,7 +345,7 @@ margin-left: 2em;
 }
 
 .col{
-    font-size: 16px;
+    
     float:left;
     width:33.33%;
     /*border:1px solid #ddd;*/
@@ -357,8 +357,10 @@ margin-left: 2em;
 .col h3{
     text-align: center;
 
+}
+.col p{
 
-
+    font-size: 16px;
 }
 
 
