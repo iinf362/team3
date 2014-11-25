@@ -196,6 +196,7 @@ a:active, a:hover {
 .mainbody h2 {
    font-family: ‘Lucida Console’, Monaco, monospace;
     padding-left: 25px;
+    text-align:center;
 }
 
 .mainbody h1 {
@@ -210,51 +211,6 @@ a:active, a:hover {
     font-size: 20px;
     font-family: Georgia, Serif;
 }
-
-
-
-/*repairs Custome layout*/
-
-.mainbody2 {
-
-    background: white;
-
-    color: #1b8199;
-    width: 80%;
-    float:right;
-
-    color: #1b8199;
-    height: 100%;
-    margin: 0 auto 0 auto;
-
-    padding-top: 0px;
-   
-
-}
-
-.mainbody2 img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-}
-
-.mainbody2 h2 {
-    padding-left: 25px;
-    text-align:center;
-}
-
-.mainbody2 h1 {
-    text-align: center;
-}
-
-.mainbody2 p {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 10px;
-    font-size: 16px;
-}
-/*end of eviction Custom*/
-
 
 
 
