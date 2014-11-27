@@ -332,7 +332,7 @@ clear:right;
  }
 
  hr{
-
+    margin:0 auto;
     width:75%;
     height:5px;
  }
