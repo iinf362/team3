@@ -226,6 +226,7 @@ a:active, a:hover {
     height: 22px;
     background: #1b8199;
     color: white;
+    padding-top: 20px
 }
 
 .fleft {
@@ -301,55 +302,12 @@ height: 4em;
 clear:right;
 }
 
-@media (max-width: 1502px){
-.nav2{
-    height:87%;
-    float:left;
-    display: inline-block;
-    width: 25%;
-    position:fixed;
-  
-}
-
-.nav2 a{
-
-    color:rgb(11, 10, 0);
-
-}
-
-.layout2{
-
-    background-color: white;
-
-}
-
-
-.nav2 nav{
-height: 95%;
-width: 65%;
-background-color: rgba(128, 128, 128, 0.31);
-opacity: 0.5;
-border: 1px;
--moz-box-shadow: 3px 3px 2px 3px rgba(204, 204, 204, 0.35);
--webkit-box-shadow: 3px 3px 2px 3px rgba(204, 204, 204, 0.35);
-box-shadow: 3px 3px 2px 3px rgba(204, 204, 204, 0.35);
-
-}
-
-
-.nav2 nav a {
-float: left;
-margin-left: 2em;
-}
-
-}
 
 .col{
     
     float:left;
     width:33.33%;
     /*border:1px solid #ddd;*/
-    
     
 
 }
@@ -365,6 +323,11 @@ margin-left: 2em;
  
  .line-break{
     padding-bottom:5px;
+
+ }
+
+ .contact{
+    clear:both;
 
  }
 
