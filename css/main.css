@@ -147,8 +147,13 @@ nav {
 }
 
 .nav{
+
 clear:both;
  margin: 0 auto;
+
+}
+.top{
+clear:both;
 
 }
 
