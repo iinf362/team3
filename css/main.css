@@ -200,9 +200,7 @@ a:active, a:hover {
 }
 
 .mainbody p {
-    
-    padding-right: 50px;
-    padding-bottom: 10px;
+    padding: 0px 15px 15px 15px;
     font-size: 20px;
     font-family: Georgia, Serif;
 }
@@ -300,10 +298,11 @@ clear:right;
 
 .col{
     
+    background-color: #ecf0f1;
     float:left;
-    width:33.33%;
-    /*border:1px solid #ddd;*/
-    
+    border:1px solid #ddd;
+    margin-bottom: 10px;
+    margin-left: 10px;
 
 }
 
