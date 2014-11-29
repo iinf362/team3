@@ -116,12 +116,12 @@ header {
     color: white;
     position: fixed;
     padding-bottom: 5px;
-    
+
 }
 
 .title {
-    float: left;
-    margin-left: 200px;
+    
+    margin-left: 10px;
     display: inline-block;
 }
 
@@ -130,7 +130,7 @@ header {
 }
 
 .search {
-    float: left;
+    float: right;
     line-height: 60px;
     margin-left: 50px;
     margin-right: 50px;
@@ -144,6 +144,7 @@ nav {
    clear:both;
     height: 60px;
     text-align: center;
+    padding-top: 60px;
 
 }
 
