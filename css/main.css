@@ -333,7 +333,7 @@ clear:right;
 
 @media (max-width: 1502px) {
     .title {
-        margin-left: 150px;
+        margin-left: 10px;
     }
     nav {
         margin-right: 130px;
@@ -342,12 +342,7 @@ clear:right;
         margin-left: 15px;
         margin-right:15px;
     }
-    .search2{
-        margin-top: 1em;
-        float:right;
-        margin-left: 15px;
-        margin-right:15px;
-    }
+
 
 
 
