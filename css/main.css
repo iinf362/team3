@@ -297,14 +297,13 @@ clear:right;
 
 
 .col{
-    
+    margin:0 auto;
+    box-shadow: 0px 2px 0px 1px #888888;
     background-color: #ecf0f1;
-    float:left;
     border:1px solid #ddd;
     border-radius: 10px;
     margin-bottom: 10px;
-    margin-left: 10px;
-    width: 75%
+    width: 80%
 
 }
 
