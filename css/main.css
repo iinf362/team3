@@ -116,6 +116,7 @@ header {
     color: white;
     position: fixed;
     padding-bottom: 5px;
+    
 }
 
 .title {
@@ -142,26 +143,16 @@ header {
 nav {
    clear:both;
     height: 60px;
-    margin: 0 auto;
+    text-align: center;
 
 }
 
-.nav{
-
-clear:both;
- margin: 0 auto;
-
-}
-.top{
-clear:both;
-
-}
 
 nav a {
    
     font-size: 30px;
     text-decoration: none;
-    color: white;
+    color: black;
     line-height: 60px;
     border-left: 1px solid gray;
     padding-left: 5px;
