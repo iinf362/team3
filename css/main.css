@@ -123,6 +123,7 @@ header {
     
     margin-left: 10px;
     display: inline-block;
+    width:100%;
 }
 
 .title img {
@@ -132,6 +133,8 @@ header {
 .search {
     float: right;
     line-height: 60px;
+    margin-right: 10px;
+    margin-top: 10px;
 
 }
 
@@ -333,6 +336,7 @@ clear:right;
 @media (max-width: 1502px) {
     .title {
         margin-left: 10px;
+        width: 100%;
     }
     nav {
         margin-right: 130px;
