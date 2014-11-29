@@ -114,8 +114,8 @@ header {
     height: 60px;
     background: #1b8199;
     color: white;
-    
     position: fixed;
+    padding-bottom: 5px;
 }
 
 .title {
@@ -180,8 +180,8 @@ a:active, a:hover {
     background: white;
     color: rgb(27, 129, 153);
     width: 80%;
-    margin: 0 auto 0 auto;
-    padding-top: 0px;
+    margin: 0 auto;
+    padding-top: 15px;
 
 
 }
