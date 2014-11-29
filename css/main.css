@@ -146,6 +146,12 @@ nav {
 
 }
 
+.nav{
+clear:both;
+ margin: 0 auto;
+
+}
+
 nav a {
    
     font-size: 30px;
