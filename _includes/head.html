@@ -15,7 +15,11 @@ $(document).ready(function(){
 
   $("button").on('click',function(){
     
-    $(".info").toggle(1000);
+
+
+    $("button").remove();
+    $('h4').after().append("<button>-</button>")
+     $(".info").toggle(1000);
   });
 
 
