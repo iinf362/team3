@@ -59,6 +59,13 @@ hr {
  */
 
 
+.letter{
+    background-color:#bdc3c7;
+    width: 50%;
+    height: 50%;
+    overflow: scroll;
+}
+
 .info{
 
     color:black;
