@@ -250,7 +250,8 @@ a:active, a:hover {
     height: 22px;
     background: #1b8199;
     color: white;
-    padding-top: 20px
+    position:absolute;
+    bottom:0;
 }
 
 .fleft {
@@ -324,6 +325,7 @@ margin: 0 auto -4em;
 .footer, .push {
 height: 4em;
 clear:both;
+
 }
 
 
