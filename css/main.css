@@ -123,8 +123,14 @@ body {
 
 }
 
-p {
+/*p class=info */
+.info
+{
     color:rgb(27, 129, 153);
+}
+
+
+p {
     margin: 0;
     padding: 0;
 }
