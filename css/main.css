@@ -556,12 +556,15 @@ h3{
     header {
         height: 60px;
     }
-
     .mainbody {
         width: 100%;
     }
     .title {
         
+    }
+    .title img {
+        height: 85%;
+        width: 85%;
     }
     .search {
        
