@@ -554,7 +554,7 @@ h3{
 
 @media (max-width: 660px){
     header {
-        height: 80px;
+        height: 100px;
     }
     .mainbody {
         width: 100%;
