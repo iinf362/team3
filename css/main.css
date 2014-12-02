@@ -214,6 +214,8 @@ a:active, a:hover {
     width: 80%;
     margin: 0 auto;
     padding-top: 15px;
+     min-height:100%;
+    position:relative;
 
 
 }
@@ -252,6 +254,7 @@ a:active, a:hover {
     color: white;
     position:absolute;
     bottom:0;
+    left:0;
 }
 
 .fleft {
