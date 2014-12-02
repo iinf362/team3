@@ -496,10 +496,13 @@ h3{
         float: right;
         margin-right: 90px;
     }
+    */
+
     nav a {
         line-height: 30px;
         font-size: 15px;
     }
+    /*
     .topics {
         margin-left: 20%;
     }
