@@ -323,6 +323,7 @@ margin: 0 auto -4em;
 .footer, .push {
 height: 4em;
 clear:both;
+margin-bottom: .18em;
 
 }
 
