@@ -451,7 +451,7 @@ h3{
 
 }
 
-@media (max-width: 1103px) {
+/*@media (max-width: 1103px) {
     .title {
         margin-left: 50px;
     }
@@ -460,6 +460,7 @@ h3{
     }
 
 }
+*/
 
 @media (max-width: 960px) {
     header {
