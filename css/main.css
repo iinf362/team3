@@ -463,7 +463,8 @@ h3{
 }
 */
 
-/*@media (max-width: 960px) {
+@media (max-width: 960px) {
+    /*
     header {
         height: 30px;
     }
@@ -514,9 +515,9 @@ h3{
     }
     .search2 img {
         line-height: 30px;
-    }
+    } */
 }
-*/
+
 
 @media (max-width: 850px) {
     .title {
