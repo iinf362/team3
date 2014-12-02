@@ -4,7 +4,7 @@ $(document).ready(function(){
 
   $('button').on('click',function(){
     
-     $(this).next('p').slideToggle(1000);
+     $(this).next('div').slideToggle(1000);
   });
 
 
