@@ -356,7 +356,7 @@ clear:right;
     width:90%;
     height:15px;
  }
- 
+ /*Jump To Top Button*/
  #bottom_button {
 
     background-color:#b3d4fc;
@@ -369,6 +369,12 @@ clear:right;
     padding:7px 31px;
     text-decoration:none;
     text-shadow:0px 1px 0px #3d768a;
+}
+
+#bottom_button:hover {
+
+background-color:rgb(29, 136, 161);
+color: white;
 }
 
 
