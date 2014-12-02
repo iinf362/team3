@@ -553,6 +553,9 @@ h3{
 }
 
 @media (max-width: 660px){
+    header {
+        height: 80px;
+    }
     .mainbody {
         width: 100%;
     }
