@@ -9,3 +9,8 @@ $(document).ready(function(){
 
 
 });
+
+
+function scrollWin() {
+    window.scrollTo(500, 0);
+}
