@@ -592,7 +592,12 @@ h3{
     .smallheader nav a {
         padding-right: 3px;
     }
+    nav a {
+        font-size: 12px;
+    }
 }
+
+
 
 
 
