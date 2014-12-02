@@ -554,16 +554,17 @@ h3{
 
 @media (max-width: 660px){
     header {
-        height: 120px;
+        height: 60px;
     }
     .mainbody {
         width: 100%;
     }
     .title {
         width: 85%;
+        line-height: 30px;
     }
     .search {
-       
+       line-height: 30px;
     }
     header nav {
         display: none;
