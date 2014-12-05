@@ -150,7 +150,7 @@ body {
 
 .top{
     float:left;
-    background: #ecf0f1;
+    background: rgb(27, 129, 153);
     width: 100%;
 
 }
@@ -340,7 +340,7 @@ p {
 
 /*footer*/
 
-.wrapper {
+.mainbody {
 
 min-height: 100%;
 height: auto !important;
@@ -353,7 +353,7 @@ height: 4em;
 
 .footer{
 
-background:#ecf0f1 ;
+background:rgb(27, 129, 153) ;
 
 }
 
