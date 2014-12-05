@@ -322,6 +322,8 @@ height: 4em;
 }
 /*End Footer*/
 
+
+/*home page content columns*/
 .col{
     margin:0 auto;
     background-color: #ecf0f1;
@@ -344,12 +346,18 @@ height: 4em;
     clear:both;
 
  }
+ /*End of columns*/
 
  hr{
     margin:0 auto;
     width:90%;
     height:15px;
  }
+
+
+
+
+
  /*Jump To Top Button*/
  #bottom_button {
 
@@ -373,6 +381,7 @@ height: 4em;
 background-color:rgb(29, 136, 161);
 color: white;
 }
+/*End jump to top*/
 
 ul{
     list-style-type: none;
