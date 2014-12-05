@@ -141,7 +141,7 @@ body {
 
 .top{
 
-    background: #ecf0f1;
+    background: rgb(27, 129, 153) ;
     width: 100%;
 
 }
@@ -150,7 +150,6 @@ body {
 
 .top{
     float:left;
-    background: rgb(27, 129, 153);
     width: 100%;
 
 }
