@@ -406,7 +406,7 @@ h3{
 
 
 /* ---------- MEDIA QUERIES --------------*/
-
+/*
 @media (max-width: 1502px) {
     .title {
         margin-left: 10px;
@@ -437,7 +437,7 @@ h3{
     }
 }
 
-/*@media (max-width: 1247px) {
+@media (max-width: 1247px) {
     nav a {
         font-size: 20px;
         padding-right: 8px;
