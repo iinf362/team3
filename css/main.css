@@ -245,56 +245,11 @@ a:active, a:hover {
 
 
 
-.fleft {
-    float: left;
-    width: 50%;
-    text-align: left;
-    color: rgb(0, 0, 38);
-    background: #1b8199;
-}
 
-.fleft a {
-    color: white;
-    text-decoration: none;
-}
 
-.fleft p {
-    margin-left: 200px;
-}
 
-/*.fmiddle {
-    float: left;
-    width: 34%;
-    text-align: center;
-    color: rgb(255, 255, 255); 
-    background: #1b8199;
-}*/
 
-.fmiddleRep{
-    width:100%;
-    margin:0 Auto;
-    text-align: center;
-    padding-top: 15px;
-}
 
-.fright {
-    float: right;
-    width: 50%;
-    text-align: right;
-    color: rgb(255, 255, 255); 
-    background: #1b8199;
-}
-
-.fright p {
-    margin-right: 200px;
-}
-
-#return {
-    text-align: right;
-    padding-right: 50px;
-}
-
-/*footer */
 
 * {
 margin: 0;
@@ -320,7 +275,17 @@ margin: 0 auto -4em;
 .footer, .push {
 height: 4em;
 }
+.fmiddleRep{
+    width:100%;
+    margin:0 Auto;
+    text-align: center;
+    padding-top: 15px;
+}
 /*End Footer*/
+
+
+
+
 
 
 /*home page content columns*/
