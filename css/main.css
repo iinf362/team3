@@ -184,10 +184,12 @@ width:100%;
 }
 
 form{
-padding-top: 1em;
+margin-top: 4em;
 padding-right: 1em;
-max-width: 60%;
-float:right;
+width: 40%;
+float: right;
+margin-left: 79%;
+position: fixed;
 }
 
 
@@ -326,6 +328,7 @@ border-bottom: 1px solid rgba(233,233,233,1);
 float: left;
 width: 60%;
 margin-left: 340px;
+margin-top: 5.5em;
 /* clear: both; */
 }
 .content img {
