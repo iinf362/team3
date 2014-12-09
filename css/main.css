@@ -59,20 +59,7 @@ hr {
  */
 
 
-.letter{
-    background-color:#ecf0f1;
-    width: 70%;
-    height: 60%;
-    overflow: scroll;
-    margin: 0 auto;
-    color: black
-}
 
-.info{
-    
-    color:black;
-    float:left;
-}
 
 
 
@@ -134,6 +121,43 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+
+
+header{
+    width:100%;
+
+
+}
+
+.wrapper {
+
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+clear:both;
+width:100%;
+}
+
+
+.letter{
+    background-color:#ecf0f1;
+    width: 70%;
+    height: 60%;
+    overflow: scroll;
+    margin: 0 auto;
+    color: black
+}
+
+.info{
+    
+    color:black;
+    float:left;
+}
+
+
+
 .top img{
     margin: 0 auto;
 }
@@ -202,7 +226,6 @@ nav{
 
     nav a{
         width:100%;
-        
         display: block;
         padding: 5px;
         box-shadow: 0 .5px #ddd;
@@ -230,6 +253,7 @@ nav{
 
     float:right;
     padding-top: 1.5em;
+    padding-bottom: 1em;
 
 
  }
@@ -265,6 +289,37 @@ opacity: 0.5;
 
 
 
+/*side-bar*/
+.side-bar{
+    float:left;
+    border-left:2px solid #ecf0f1;
+    border-right:2px solid #ecf0f1;
+    width:20%;
+    background-color: #ecf0f1;
+    position: fixed;
+    top: 60px;
+    height: 100%;
+    border-top: 2px solid #ecf0f1;
+
+}
+.side-bar ul{
+    padding:0;
+}
+
+.side-bar h3{
+    padding-top: .3em;
+    text-align: center;
+
+}
+
+
+.side-bar ul li{
+padding:15px 5px 5px 25px;
+list-style-type: none;
+border-bottom: 1px solid rgba(233,233,233,1);
+}
+
+/*side-bar end*/
 
 
 
@@ -287,14 +342,12 @@ opacity: 0.5;
 
 
 
-
-
-/*p class=info */
+/*p class=info 
 .info
 {
     color:rgb(27, 129, 153);
 }
-
+*/
 
 p {
     margin: 0;
@@ -307,25 +360,22 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*main content style*/
+.content{
+float: left;
+margin-top: 5em;
+width: 60%;
+margin-left: 340px;
+/* clear: both; */
+}
+
+
+.high {
+background-color: white;
+box-shadow: rgb(255, 228, 196) 0px 0px 0px 1px;
+}
+
+/*
 .mainbody {
     clear:both; 
     background: white;
@@ -335,9 +385,9 @@ p {
     padding-top: 15px;
 
 
-}
+}*/
 
-.mainbody img {
+.content img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
@@ -345,11 +395,11 @@ p {
 
 
 
-.mainbody h1 {
+.content h1 {
     text-align: center;
 }
 
-.mainbody p {
+.content p {
     padding: 0px 15px 15px 15px;
     font-size: 20px;
     font-family: Georgia, Serif;
@@ -364,20 +414,16 @@ p {
 
 /*footer*/
 
-.mainbody {
 
-min-height: 100%;
-height: auto !important;
-height: 100%;
-margin: 0 auto -4em;
-}
+
+
 .footer, .push {
 height: 4em;
 }
 
 .footer{
 
-background:rgb(27, 129, 153) ;
+background:white ;
 
 }
 
@@ -420,6 +466,8 @@ background:rgb(27, 129, 153) ;
 
  }
  /*End of columns*/
+
+
 
  hr{
     margin:0 auto;
