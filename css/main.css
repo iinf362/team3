@@ -126,7 +126,7 @@ body {
 
 header{
     width:100%;
-
+    position:fixed;
 
 }
 
@@ -297,7 +297,7 @@ opacity: 0.5;
     width:20%;
     background-color: #ecf0f1;
     position: fixed;
-    top: 60px;
+    top: 3.8em;
     height: 100%;
     border-top: 2px solid #ecf0f1;
 
@@ -321,7 +321,31 @@ border-bottom: 1px solid rgba(233,233,233,1);
 
 /*side-bar end*/
 
+/*main content style*/
+.content{
+float: left;
+width: 60%;
+margin-left: 340px;
+/* clear: both; */
+}
+.content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
 
+
+
+.content h1 {
+    text-align: center;
+}
+
+.content p {
+    padding: 0px 15px 15px 15px;
+    font-size: 20px;
+    font-family: Georgia, Serif;
+}
+/*end main content style*/
 
 
 
@@ -357,18 +381,6 @@ p {
 
 
 
-
-
-
-/*main content style*/
-.content{
-float: left;
-width: 60%;
-margin-left: 340px;
-/* clear: both; */
-}
-
-
 .high {
 background-color: white;
 box-shadow: rgb(255, 228, 196) 0px 0px 0px 1px;
@@ -386,24 +398,7 @@ box-shadow: rgb(255, 228, 196) 0px 0px 0px 1px;
 
 }*/
 
-.content img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-}
 
-
-
-.content h1 {
-    text-align: center;
-}
-
-.content p {
-    padding: 0px 15px 15px 15px;
-    font-size: 20px;
-    font-family: Georgia, Serif;
-}
-/*end main content style*/
 
 
 
@@ -421,7 +416,7 @@ height: 4em;
 }
 
 .footer{
-
+clear :both;
 background:white ;
 
 }
