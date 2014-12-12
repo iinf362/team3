@@ -395,7 +395,7 @@ box-shadow: rgb(255, 228, 196) 0px 0px 0px 1px;
     color: rgb(27, 129, 153);
     width: 80%;
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 65px;
   
 }
 
@@ -447,7 +447,6 @@ background:white ;
     border:1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 10px;
-    width: 80%
 
 }
 
@@ -469,7 +468,6 @@ background:white ;
 
  hr{
     margin:0 auto;
-    width:90%;
     height:15px;
  }
 
