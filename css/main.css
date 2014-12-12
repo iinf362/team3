@@ -412,7 +412,7 @@ box-shadow: rgb(255, 228, 196) 0px 0px 0px 1px;
 
 
 .footer, .push {
-height: 4em;
+height: 0em;
 }
 
 .footer{
