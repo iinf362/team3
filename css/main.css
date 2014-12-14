@@ -275,9 +275,12 @@ nav{
 
 nav a:hover{
 
-color: #ecf0f1;
+color: #f39c12;
 opacity: 0.5;
 
+}
+nav a:active {
+color:#f39c12;
 }
 
 /*End Navigation*/
@@ -383,9 +386,7 @@ background-color: white;
 box-shadow: rgb(255, 228, 196) 0px 0px 0px 1px;
 }
 
-a:active {
-color:#f39c12;
-}
+
 
 .mainbody {
     clear:both; 
