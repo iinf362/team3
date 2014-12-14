@@ -13,7 +13,7 @@ $(document).ready(function(){
 	$('.three').hide();
 	$('.four').hide();
 
-	$('.sidebar ul li').on('click',function(){
+	$('.side-bar ul li').on('click',function(){
 
 
 		$(this).addClass("highlight")
