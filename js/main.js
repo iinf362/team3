@@ -34,6 +34,7 @@ $(document).ready(function(){
 		$('.link-four').removeClass("highlight");
 		$('.link-five').removeClass("highlight");
      	$('.link-six').removeClass("highlight");
+     	$('.link-seven').removeClass("highlight");
 	}
 	else if( $(this).is(".link-two")){
 
@@ -50,6 +51,7 @@ $(document).ready(function(){
      	$('.link-four').removeClass("highlight");
      	$('.link-five').removeClass("highlight");
      	$('.link-six').removeClass("highlight");
+     	$('.link-seven').removeClass("highlight");
 
      	}
      	else if( $(this).is(".link-three")){
@@ -67,6 +69,7 @@ $(document).ready(function(){
      		$('.link-four').removeClass("highlight");
      		 $('.link-five').removeClass("highlight");
      		$('.link-six').removeClass("highlight");
+     		$('.link-seven').removeClass("highlight");
      	}
 
      	    else if( $(this).is(".link-four")){
@@ -84,6 +87,7 @@ $(document).ready(function(){
      		$('.link-three').removeClass("highlight");
      		$('.link-five').removeClass("highlight");
      		$('.link-six').removeClass("highlight");
+     		$('.link-seven').removeClass("highlight");
      	}
      	    else if( $(this).is(".link-five")){
 
@@ -99,6 +103,7 @@ $(document).ready(function(){
      		$('.link-three').removeClass("highlight");
      		$('.link-four').removeClass("highlight");
      		$('.link-six').removeClass("highlight");
+     		$('.link-seven').removeClass("highlight");
      	}
      		else if( $(this).is(".link-six")){
 
@@ -114,6 +119,24 @@ $(document).ready(function(){
      		$('.link-three').removeClass("highlight");
      		$('.link-four').removeClass("highlight");
      		$('.link-five').removeClass("highlight");
+     		$('.link-seven').removeClass("highlight");
+     	}
+     	     		else if( $(this).is(".link-six")){
+
+     		$('.one').hide();
+     		$('.two').hide();
+     		$('.three').hide();
+     		$('.four').hide();
+     		$('.five').hide();
+     		$('.six').hide();
+     		$('.seven').show();
+
+     		$( '.link-one' ).removeClass( "highlight" );
+     		$( '.link-two' ).removeClass( "highlight" );
+     		$('.link-three').removeClass("highlight");
+     		$('.link-four').removeClass("highlight");
+     		$('.link-five').removeClass("highlight");
+     		$('.link-six').removeClass("highlight");
      	}
 
 
