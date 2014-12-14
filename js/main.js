@@ -25,8 +25,8 @@ $(document).ready(function(){
 			$('.three').hide()
 			$('.two').hide();
 			$('.four').hide();
-			$('six').hide();
-			$('five').hide();
+			$('.six').hide();
+			$('.five').hide();
 			$('.one').show();
 		
 		$( '.link-two' ).removeClass( "highlight" );
@@ -40,8 +40,8 @@ $(document).ready(function(){
 		$('.one').hide();
 		$('.three').hide()
 		$('.four').hide();
-		$('five').hide();
-		$('six').hide();
+		$('.five').hide();
+		$('.six').hide();
 		$('.two').show();
 
 
@@ -57,8 +57,8 @@ $(document).ready(function(){
      		$('.one').hide();
      		$('.two').hide();
      		$('.four').hide();
-     		$('five').hide();
-     		$('six').hide();
+     		$('.five').hide();
+     		$('.six').hide();
      		$('.three').show()
 
 
@@ -74,8 +74,8 @@ $(document).ready(function(){
      		$('.one').hide();
      		$('.two').hide();
      		$('.three').hide();
-     		$('five').hide();
-     		$('six').hide();
+     		$('.five').hide();
+     		$('.six').hide();
      		$('.four').show();
 
 
@@ -90,8 +90,8 @@ $(document).ready(function(){
      		$('.one').hide();
      		$('.two').hide();
      		$('.three').hide();
-     		$('four').hide();
-     		$('six').hide();
+     		$('.four').hide();
+     		$('.six').hide();
      		$('.five').show();
 
      		$( '.link-one' ).removeClass( "highlight" );
@@ -105,8 +105,8 @@ $(document).ready(function(){
      		$('.one').hide();
      		$('.two').hide();
      		$('.three').hide();
-     		$('four').hide();
-     		$('five').hide();
+     		$('.four').hide();
+     		$('.five').hide();
      		$('.six').show();
 
      		$( '.link-one' ).removeClass( "highlight" );
