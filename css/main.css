@@ -490,22 +490,17 @@ border-image-width: initial;
 border-image-outset: initial;
 border-image-repeat: initial;
 display: inline-block;
-color: rgb(27, 129, 153);
-font-family: Arial;
-font-size: 17px;
 padding: 4px 3px;
-text-decoration: none;
-text-shadow: rgb(61, 118, 138) 0px 1px 0px;
 position: fixed;
 bottom: 0px;
 right: 0px;
 
 }
 
-#bottom_button:hover {
-
-background-color:rgb(29, 136, 161);
-color: white;
+#jump-to-top:hover {
+   
+   opacity: 1.0;
+   
 }
 /*End jump to top*/
 
