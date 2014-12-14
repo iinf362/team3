@@ -47,6 +47,18 @@ $(document).ready(function(){
      		$( '.link-two' ).removeClass( "highlight" );
      	}
 
+     	    else if( $(this).is(".link-four")){
+
+     		$('.one').hide();
+     		$('.two').hide();
+     		$('.three').hide();
+     		$('.four').show();
+     		//$( '.link-three').addClass( "high" );
+     		$( '.link-one' ).removeClass( "highlight" );
+     		$( '.link-two' ).removeClass( "highlight" );
+     	}
+
+
      });
 
 
