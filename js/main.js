@@ -8,7 +8,6 @@ $(document).ready(function(){
 	});
 
 
-	$('.one').hide();
 	$('.two').hide();
 	$('.three').hide();
 	$('.four').hide();
@@ -113,7 +112,7 @@ $(document).ready(function(){
      		$( '.link-two' ).removeClass( "highlight" );
      		$('.link-three').removeClass("highlight");
      		$('.link-four').removeClass("highlight");
-     		$('.link-six').removeClass("highlight");
+     		$('.link-five').removeClass("highlight");
      	}
 
 
