@@ -310,7 +310,7 @@ opacity: 0.5;
 
 
 .side-bar ul li{
-padding:15px 5px 5px 25px;
+padding: 10px 10px 10px 35px;
 list-style-type: none;
 border-bottom: 1px solid rgba(233,233,233,1);
 }
