@@ -1,5 +1,6 @@
 $(document).ready(function(){
-	$('.one').addClass("highlight")
+
+	$('.link-one').addClass("highlight")
 	$('.info').hide();
 
 	$('button').on('click',function(){
