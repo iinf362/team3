@@ -100,7 +100,7 @@ $(document).ready(function(){
      		$('.link-four').removeClass("highlight");
      		$('.link-six').removeClass("highlight");
      	}
-     		else if( $(this).is(".link-five")){
+     		else if( $(this).is(".link-six")){
 
      		$('.one').hide();
      		$('.two').hide();
