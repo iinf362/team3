@@ -12,6 +12,8 @@ $(document).ready(function(){
 	$('.two').hide();
 	$('.three').hide();
 	$('.four').hide();
+	$('.five').hide();
+	$('.six').hide();
 
 	$('.side-bar ul li').on('click',function(){
 
@@ -23,21 +25,31 @@ $(document).ready(function(){
 			$('.three').hide()
 			$('.two').hide();
 			$('.four').hide();
+			$('six').hide();
+			$('five').hide();
 			$('.one').show();
 		
 		$( '.link-two' ).removeClass( "highlight" );
 		$( '.link-three' ).removeClass( "highlight" );
 		$('.link-four').removeClass("highlight");
+		$('.link-five').removeClass("highlight");
+     	$('.link-six').removeClass("highlight");
 	}
 	else if( $(this).is(".link-two")){
 
 		$('.one').hide();
 		$('.three').hide()
 		$('.four').hide();
+		$('five').hide();
+		$('six').hide();
 		$('.two').show();
+
+
      	$( '.link-one' ).removeClass( "highlight" );
      	$( '.link-three' ).removeClass( "highlight" );
      	$('.link-four').removeClass("highlight");
+     	$('.link-five').removeClass("highlight");
+     	$('.link-six').removeClass("highlight");
 
      	}
      	else if( $(this).is(".link-three")){
@@ -45,10 +57,16 @@ $(document).ready(function(){
      		$('.one').hide();
      		$('.two').hide();
      		$('.four').hide();
+     		$('five').hide();
+     		$('six').hide();
      		$('.three').show()
+
+
      		$( '.link-one' ).removeClass( "highlight" );
      		$( '.link-two' ).removeClass( "highlight" );
      		$('.link-four').removeClass("highlight");
+     		 $('.link-five').removeClass("highlight");
+     		$('.link-six').removeClass("highlight");
      	}
 
      	    else if( $(this).is(".link-four")){
@@ -56,11 +74,49 @@ $(document).ready(function(){
      		$('.one').hide();
      		$('.two').hide();
      		$('.three').hide();
+     		$('five').hide();
+     		$('six').hide();
      		$('.four').show();
+
+
      		$( '.link-one' ).removeClass( "highlight" );
      		$( '.link-two' ).removeClass( "highlight" );
      		$('.link-three').removeClass("highlight");
+     		$('.link-five').removeClass("highlight");
+     		$('.link-six').removeClass("highlight");
      	}
+     	    else if( $(this).is(".link-five")){
+
+     		$('.one').hide();
+     		$('.two').hide();
+     		$('.three').hide();
+     		$('four').hide();
+     		$('six').hide();
+     		$('.five').show();
+
+     		$( '.link-one' ).removeClass( "highlight" );
+     		$( '.link-two' ).removeClass( "highlight" );
+     		$('.link-three').removeClass("highlight");
+     		$('.link-four').removeClass("highlight");
+     		$('.link-six').removeClass("highlight");
+     	}
+     		else if( $(this).is(".link-five")){
+
+     		$('.one').hide();
+     		$('.two').hide();
+     		$('.three').hide();
+     		$('four').hide();
+     		$('five').hide();
+     		$('.six').show();
+
+     		$( '.link-one' ).removeClass( "highlight" );
+     		$( '.link-two' ).removeClass( "highlight" );
+     		$('.link-three').removeClass("highlight");
+     		$('.link-four').removeClass("highlight");
+     		$('.link-six').removeClass("highlight");
+     	}
+
+
 
 
      });
