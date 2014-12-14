@@ -22,29 +22,33 @@ $(document).ready(function(){
 
 			$('.three').hide()
 			$('.two').hide();
+			$('.four').hide();
 			$('.one').show();
-		//$( '.link-one' ).addClass( "high" );
+		
 		$( '.link-two' ).removeClass( "highlight" );
 		$( '.link-three' ).removeClass( "highlight" );
+		$('.link-four').removeClass("highlight");
 	}
 	else if( $(this).is(".link-two")){
 
 		$('.one').hide();
 		$('.three').hide()
+		$('.four').hide();
 		$('.two').show();
-     		//$( '.link-two').addClass( "high" );
-     		$( '.link-one' ).removeClass( "highlight" );
-     		$( '.link-three' ).removeClass( "highlight" );
+     	$( '.link-one' ).removeClass( "highlight" );
+     	$( '.link-three' ).removeClass( "highlight" );
+     	$('.link-four').removeClass("highlight");
 
      	}
      	else if( $(this).is(".link-three")){
 
      		$('.one').hide();
      		$('.two').hide();
+     		$('.four').hide();
      		$('.three').show()
-     		//$( '.link-three').addClass( "high" );
      		$( '.link-one' ).removeClass( "highlight" );
      		$( '.link-two' ).removeClass( "highlight" );
+     		$('.link-four').removeClass("highlight");
      	}
 
      	    else if( $(this).is(".link-four")){
@@ -53,9 +57,9 @@ $(document).ready(function(){
      		$('.two').hide();
      		$('.three').hide();
      		$('.four').show();
-     		//$( '.link-three').addClass( "high" );
      		$( '.link-one' ).removeClass( "highlight" );
      		$( '.link-two' ).removeClass( "highlight" );
+     		$('.link-three').removeClass("highlight");
      	}
 
 
