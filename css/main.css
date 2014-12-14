@@ -313,6 +313,7 @@ opacity: 0.5;
 padding: 10px 10px 10px 35px;
 list-style-type: none;
 border-bottom: 1px solid rgba(233,233,233,1);
+cursor: pointer;
 }
 
 /*side-bar end*/
