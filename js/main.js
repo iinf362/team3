@@ -121,7 +121,7 @@ $(document).ready(function(){
      		$('.link-five').removeClass("highlight");
      		$('.link-seven').removeClass("highlight");
      	}
-     	     		else if( $(this).is(".link-six")){
+     	    else if( $(this).is(".link-seven")){
 
      		$('.one').hide();
      		$('.two').hide();
