@@ -14,6 +14,7 @@ $(document).ready(function(){
 	$('.four').hide();
 	$('.five').hide();
 	$('.six').hide();
+	$('.seven').hide();
 
 	$('.side-bar ul li').on('click',function(){
 
