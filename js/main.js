@@ -27,6 +27,7 @@ $(document).ready(function(){
 			$('.four').hide();
 			$('.six').hide();
 			$('.five').hide();
+			$('.seven').hide();
 			$('.one').show();
 		
 		$( '.link-two' ).removeClass( "highlight" );
@@ -43,6 +44,7 @@ $(document).ready(function(){
 		$('.four').hide();
 		$('.five').hide();
 		$('.six').hide();
+		$('.seven').hide();
 		$('.two').show();
 
 
@@ -61,6 +63,7 @@ $(document).ready(function(){
      		$('.four').hide();
      		$('.five').hide();
      		$('.six').hide();
+     		$('.seven').hide();
      		$('.three').show()
 
 
@@ -79,6 +82,7 @@ $(document).ready(function(){
      		$('.three').hide();
      		$('.five').hide();
      		$('.six').hide();
+     		$('.seven').hide();
      		$('.four').show();
 
 
@@ -96,6 +100,7 @@ $(document).ready(function(){
      		$('.three').hide();
      		$('.four').hide();
      		$('.six').hide();
+     		$('.seven').hide();
      		$('.five').show();
 
      		$( '.link-one' ).removeClass( "highlight" );
@@ -112,6 +117,7 @@ $(document).ready(function(){
      		$('.three').hide();
      		$('.four').hide();
      		$('.five').hide();
+     		$('.seven').hide();
      		$('.six').show();
 
      		$( '.link-one' ).removeClass( "highlight" );
