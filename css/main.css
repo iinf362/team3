@@ -333,11 +333,9 @@ padding-right: 1em;
 
 /*main content style*/
 .content{
-float: left;
-width: 72%;
-margin-left: 300px;
-margin-top: 5.5em;
-/* clear: both; */
+width: 80%;
+margin: 0 auto;
+
 }
 .content img {
     display: block;
