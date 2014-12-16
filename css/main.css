@@ -350,7 +350,7 @@ margin: 0 auto;
 }
 
 .content p {
-    padding: 0px 15px 15px 15px;
+    padding: 0px 0px 15px 0px;
     font-family: Georgia, Serif;
 }
 /*end main content style*/
@@ -513,8 +513,10 @@ right: 0px;
 /* heading3  */
 h3{
   
-    margin:0 1.5%;
-
+font-size: 1.17em;
+margin: 1em 0;
+text-align: center;
+}
 
 
 
