@@ -390,8 +390,8 @@ p {
 
 
 .highlight {
-background-color: white;
-box-shadow: rgb(255, 228, 196) 0px 0px 0px 1px;
+border-bottom: 3px solid #f39c12;
+padding-bottom: 1em;
 }
 
 
