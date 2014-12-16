@@ -45,13 +45,12 @@ html {
  */
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
+display: block;
+height: 1px;
+border: 0;
+border-top: 1px solid #ccc;
+margin: 1em 0;
+clear: both;
 
 /*
  * Remove the gap between images, videos, audio and canvas and the bottom of
@@ -366,7 +365,10 @@ margin: 0 auto;
 }
 
 .boxes{
-width:80%;
+width: 26%;
+float: left;
+padding-left: 2em;
+padding-bottom: 1em;
 
 }
 
