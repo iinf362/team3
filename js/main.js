@@ -16,7 +16,7 @@ $(document).ready(function(){
 	$('.six').hide();
 	$('.seven').hide();
 
-	$('.side-bar ul li').on('click',function(){
+	$('.menu-bar ul li').on('click',function(){
 
 
 		$(this).addClass("highlight")
