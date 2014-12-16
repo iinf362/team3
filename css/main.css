@@ -136,7 +136,7 @@ header{
 min-height: 100%;
 height: auto !important;
 height: 100%;
-margin: 0 auto -4em;
+margin: 0 auto -5em;
 clear:both;
 width:100%;
 }
@@ -423,12 +423,14 @@ padding-bottom: 1em;
 
 
 .footer, .push {
-height: 0em;
+height: 5em;
 }
 
 .footer{
 clear :both;
-background:white ;
+background: #7f8c8d;
+color: white;
+box-shadow: 0px 0px 10px 5px #ddd;
 
 }
 
