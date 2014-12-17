@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 	$('button').on('click',function(){
 
-		$(this).next('div').slideToggle(1000);
+		$(this).closest('li').find('.info').slideToggle(1000);
 	});
 
 
