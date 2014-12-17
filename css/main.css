@@ -574,7 +574,9 @@ text-align: center;
     margin-top: 5px;
  }
 
-
+button {
+margin-left: 1em;
+}
 
 
 /* ---------- MEDIA QUERIES --------------*/
