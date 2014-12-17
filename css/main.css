@@ -126,7 +126,6 @@ body {
 
 header{
     width:100%;
-    position:fixed;
 
 }
 
@@ -196,6 +195,13 @@ float: right;
 
 
 }
+
+@media(min-width: 1208px){
+    header{
+        position: fixed;
+    }
+}
+
 
 
 
