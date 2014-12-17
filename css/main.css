@@ -22,8 +22,6 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
-
-
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -56,12 +54,6 @@ clear: both;
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-
-
-
-
-
-
 audio,
 canvas,
 img,
@@ -104,33 +96,20 @@ textarea {
 * {
   margin: 0;
 }
-
 html,body{
-
 margin:0;
 padding:0;
 height: 100%;
-
 }
-
-
-body {
-
-    
+body { 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 
 }
-
-
-
 header{
     width:100%;
-
 }
-
 .wrapper {
-
 min-height: 100%;
 height: auto !important;
 height: 100%;
@@ -138,8 +117,6 @@ margin: 0 auto -5em;
 clear:both;
 width:100%;
 }
-
-
 .letter{
     background-color:#ecf0f1;
     width: 70%;
@@ -154,14 +131,9 @@ width:100%;
     color:black;
     float:left;
 }
-
-
-
 .top img{
     margin: 0 auto;
 }
-
-
 .top{
 
     background: rgb(27, 129, 153) ;
@@ -182,22 +154,16 @@ margin-top: 30px;
 .top{
     float:left;
     width: 100%;
-
-
 }
-
 .top img{
     max-width: 40%;
     float:left;
     margin-left: 8.5em;
 }
-
 form{
 margin-right: 9.5em;
 float: right;
 }
-
-
 }
 
 @media(min-width: 1208px){
@@ -206,34 +172,20 @@ float: right;
     }
 }
 
-
-
-
-
-
 /* header ,main nav & search */
-
-
 @media(max-width: 950px){
 .top{
 
 margin:0 auto;
-
-
 }
 .top img{
 
     margin:0 auto;
     width:100%;
-
 }
-
 nav{
     padding-top:1em;
     display: block;
-    
-    
-
     }
 
     nav a{
@@ -245,17 +197,11 @@ nav{
         text-decoration: none;
         color:white;
     }
-
-
-
     form{
 
         margin: 0 auto;
         width:50%;
-
-
     }
-
 
 }
 
@@ -267,7 +213,6 @@ nav{
     padding-top: 1em;
     padding-bottom: 1em;
     margin-right: 8.5em;
-
  }
 
  nav a{
@@ -277,14 +222,9 @@ nav{
     color:white;
     padding-right: 1em;
 
-
  }
 
-
 }
-
-
-
 
 nav a:hover{
 
@@ -296,15 +236,9 @@ color:#f39c12;
 }
 
 /*End Navigation*/
-
-
 #bottom-main{
-
 background-color:#ecf0f1; 
-
-
 }
-
 /*side-bar*/
 .menu-bar{
 border-left: 2px solid #ecf0f1;
@@ -329,13 +263,8 @@ margin-top: 4.9em;
 .menu-bar h3{
     padding-top: .3em;
     text-align: center;
-
 }
-
-
 .menu-bar ul li{
-
-
 list-style-type: none;
 cursor: pointer;
 display: inline;
@@ -350,16 +279,12 @@ padding-right: 1em;
 .content{
 width: 80%;
 margin: 0 auto;
-
 }
 .content img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
 }
-
-
-
 .content h1 {
     text-align: center;
 }
@@ -369,16 +294,12 @@ margin: 0 auto;
     font-family: Georgia, Serif;
 }
 /*end main content style*/
-
-
-
 .icon{
 
     width:200px;
     height: 150px;
     max-width:100%;
     margin-left: 2em;
-
 }
 
 .boxes{
@@ -387,61 +308,30 @@ float: left;
 padding-left: 4em;
 padding-bottom: 1em;
 }
-
 #bottom-main a:hover{
-
 color: #f1c40f;
 text-decoration: underline;
-
-
 }
 
 #bottom-main a{
-
 text-decoration: none;
-
-
 }
-
-
-
-#bottom-main a:visited{
-    
+#bottom-main a:visited{  
 color:#f1c40f;
 text-decoration: none;
-
-
 }
-
-
-
-
-
 div li{
 list-style: none;
-
 }
-
-
-
-
-
 
 p {
     margin: 0;
     padding: 0;
 }
-
-
-
-
 .highlight {
 border-bottom: 3px solid #1B8199;
 padding-bottom: 1em;
 }
-
-
-
 .mainbody {
     clear:both; 
     background: white;
@@ -451,23 +341,7 @@ padding-bottom: 1em;
     padding-top: 65px;
   
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /*footer*/
-
-
-
-
 .footer, .push {
 height: 5em;
 }
@@ -479,9 +353,6 @@ color: white;
 box-shadow: 0px 0px 10px 5px #ddd;
 
 }
-
-
-
 .fmiddleRep{
     width:100%;
     margin:0 Auto;
@@ -489,12 +360,6 @@ box-shadow: 0px 0px 10px 5px #ddd;
     padding-top: 15px;
 }
 /*End Footer*/
-
-
-
-
-
-
 /*home page content columns*/
 .col{
     margin:0 auto;
@@ -504,13 +369,10 @@ box-shadow: 0px 0px 10px 5px #ddd;
     margin-bottom: 10px;
 
 }
-
 .col h4{
     text-align: center;
-
 }
 .col p{
-
      font-size: 16px;
 }
  .contact{
@@ -518,21 +380,11 @@ box-shadow: 0px 0px 10px 5px #ddd;
 
  }
  /*End of columns*/
-
-
-
  hr{
     margin:0 auto;
     height:15px;
  }
-
-
-
-
-
  /*Jump To Top Arrow*/
- 
-
   img#jump-to-top {
 background-color: rgb(27, 129, 153);
 border-radius: 28px;
@@ -548,34 +400,18 @@ bottom: 0px;
 right: 0px;
 
 }
-
 /*End jump to top arrow*/
-
-
-
-
-
-
 /* heading3  */
-h3{
-  
+h3{ 
 font-size: 1.17em;
 margin: 1em 0;
 text-align: center;
 }
-
-
-
 }
  ul li button{
-
-
     margin-top: 5px;
-
  }
  ol li button{
-
-
     margin-top: 5px;
  }
 
@@ -585,61 +421,6 @@ margin-left: 1em;
 
 
 /* ---------- MEDIA QUERIES --------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
