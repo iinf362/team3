@@ -373,7 +373,7 @@ margin: 0 auto;
     height: 150px;
     max-width:100%;
     margin-left: 2em;
-    
+
 }
 
 .boxes{
@@ -412,19 +412,15 @@ text-decoration: none;
 
 
 
+div li{
+list-style: none;
 
-
-
-
-
-
-
-/*p class=info 
-.info
-{
-    color:rgb(27, 129, 153);
 }
-*/
+
+
+
+
+
 
 p {
     margin: 0;
